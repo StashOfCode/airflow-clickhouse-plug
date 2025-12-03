@@ -5,14 +5,14 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "airflow-clickhouse-plugin"
+name = "airflow-clickhouse-plug"
 version = "1.6.0"
-description = "airflow-clickhouse-plugin — Airflow plugin to execute ClickHouse commands and queries"
+description = "airflow-clickhouse-plug — Airflow plugin to execute ClickHouse commands and queries"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT License" }
 authors = [
-    { name = "Anton Bryzgalov, Viktor Taranenko", email = "tony.bryzgaloff@gmail.com" },
+    { name = "Firstname Secondname", email = "xxx.xxxx@gmail.com" },
 ]
 keywords = [
     "clickhouse",
@@ -32,10 +32,10 @@ dynamic = [
 ]
 
 [project.urls]
-GitHub = "https://github.com/bryzgaloff/airflow-clickhouse-plugin"
-Documentation = "https://github.com/bryzgaloff/airflow-clickhouse-plugin#airflow-clickhouse-plugin"
-Changelog = "https://github.com/bryzgaloff/airflow-clickhouse-plugin/releases"
-Issues = "https://github.com/bryzgaloff/airflow-clickhouse-plugin/issues"
+GitHub = "https://github.com/StashOfCode/airflow-clickhouse-plugin"
+Documentation = "https://github.com/StashOfCode/airflow-clickhouse-plugin#airflow-clickhouse-plugin"
+Changelog = "https://github.com/StashOfCode/airflow-clickhouse-plugin/releases"
+Issues = "https://github.com/StashOfCode/airflow-clickhouse-plugin/issues"
 
 [project.optional-dependencies]
 "common.sql" = [
